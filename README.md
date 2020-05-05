@@ -1,4 +1,4 @@
-Very simple zenity-GUI for ffmpeg .
+Very simple Thunar Custom Action zenity-GUI for ffmpeg - for very simple media conversion.
 ---
 > Selection-dialog, error-dialog and system notification on completion   
 
