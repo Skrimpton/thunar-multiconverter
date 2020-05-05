@@ -1,9 +1,12 @@
-Very simple Thunar Custom Action zenity-GUI for ffmpeg - for very simple media conversion.
+Very simple Thunar Custom Action zenity-GUI for ffmpeg.
 ---
-> Selection-dialog, error-dialog and system notification on completion   
+> For very simple media conversion 
 
+* Selection-dialog, error-dialog and system notification on completion   
 * Supports multiple selected files.
-* Applies ffmpeg default settings for output container. 
+* Applies ffmpeg default settings for output container.
+
+---
 
 ### Requirements
 * Zenity
@@ -11,11 +14,14 @@ Very simple Thunar Custom Action zenity-GUI for ffmpeg - for very simple media c
 * notify-send
 * FFmpeg
 
+---
 
 ### Install
 
 > Copy paste into the "command"-field when creating or editing a Thunar custom action
 <br/> > Replace the "FILETYPES" (e.g. "mp4" to "mp3") to change ouput format 
+
+---
 
 ### Code
 
