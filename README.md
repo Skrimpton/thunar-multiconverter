@@ -1,6 +1,8 @@
 # thunar-multiconverter
 
-Very simple zenity-GUI for ffmpeg consisting of selection/confirmation dialog and error-warning- applying ffmpeg default settings to selected files. Supports multiple selections. Requires Zenity, Parallel, notify-send and FFmpeg
+Very simple zenity-GUI for ffmpeg consisting of selection/confirmation dialog and error-warning.
+* Applies ffmpeg default settings to selected files. 
+* Supports multiple selections. Requires Zenity, Parallel, notify-send and FFmpeg
 
 
 ### Code
