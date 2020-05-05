@@ -3,7 +3,7 @@ Very simple Thunar Custom Action zenity-GUI for ffmpeg - for very simple media c
 > Selection-dialog, error-dialog and system notification on completion   
 
 * Supports multiple selected files.
-* Applies ffmpeg default settings to selected files. 
+* Applies ffmpeg default settings for output container. 
 
 ### Requirements
 * Zenity
