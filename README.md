@@ -1,9 +1,11 @@
-Very simple zenity-GUI for ffmpeg consisting of selection/confirmation dialog and error-warning.
+Very simple zenity-GUI for ffmpeg .
 ---
-* Applies ffmpeg default settings to selected files. 
-* Supports multiple selections.
+> Selection-dialog, error-dialog and system notification on completion   
 
-### Regquirements
+* Supports multiple selected files.
+* Applies ffmpeg default settings to selected files. 
+
+### Requirements
 * Zenity
 * Parallel
 * notify-send
