@@ -1,5 +1,3 @@
-# thunar-multiconverter
-
 Very simple zenity-GUI for ffmpeg consisting of selection/confirmation dialog and error-warning.
 ---
 * Applies ffmpeg default settings to selected files. 
