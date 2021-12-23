@@ -1,5 +1,11 @@
 Very simple Thunar Custom Action zenity-GUI for ffmpeg.
 ---
+
+```
+filetype=$(zenity --list --height=300 --title="" --text="Convert film with ffmpeg:\n\nApplies standard settings\nfor selected filetype:"  --column="." "mp4" "mkv" "ogv" "mov" "flv" "avi" "wmv"); if [ "$filetype" != "" ]; then parallel -j 1 ffmpeg -i '{}' '{.}.'$filetype ::: %F && notify-send -t 9999999 "Convertion to $filetype is done!" || { zenity --error --text="An error occurred!\n\nSO SAD!"; } ; fi
+
+```
+
 > For very simple media conversion 
 
 * Selection-dialog for filetypes, error-dialog and system notification on completion   
@@ -28,10 +34,3 @@ This code is slightly modified from one or more original codesnippets found arou
 ### Code
 
 filetype=$(zenity --list --height=300 --title="" --text="Convert film with ffmpeg:\n\nApplies standard settings\nfor selected filetype:"  --column="." "mp4" "mkv" "ogv" "mov" "flv" "avi" "wmv"); if [ "$filetype" != "" ]; then parallel -j 1 ffmpeg -i '{}' '{.}.'$filetype ::: %F && notify-send -t 9999999 "Convertion to $filetype is done!" || { zenity --error --text="An error occurred!\n\nSO SAD!"; } ; fi
-
----
-
-```
-filetype=$(zenity --list --height=300 --title="" --text="Convert film with ffmpeg:\n\nApplies standard settings\nfor selected filetype:"  --column="." "mp4" "mkv" "ogv" "mov" "flv" "avi" "wmv"); if [ "$filetype" != "" ]; then parallel -j 1 ffmpeg -i '{}' '{.}.'$filetype ::: %F && notify-send -t 9999999 "Convertion to $filetype is done!" || { zenity --error --text="An error occurred!\n\nSO SAD!"; } ; fi
-```
-
