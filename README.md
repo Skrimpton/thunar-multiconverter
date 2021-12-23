@@ -6,6 +6,8 @@ Very simple Thunar Custom Action zenity-GUI for ffmpeg.
 * Supports multiple selected files.
 * Applies ffmpeg default settings for output container (filetype).
 
+This code is modified from one or more original codesnippets found around the WEB, but the research was conducted in a frenzy and the sources are lost in time, like tears in rain
+
 ---
 
 ### Requirements
@@ -16,7 +18,7 @@ Very simple Thunar Custom Action zenity-GUI for ffmpeg.
 
 ---
 
-### Install
+### "Install"
 
 > Copy paste into the "command"-field when creating or editing a Thunar custom action
 <br/> > Replace the "FILETYPES" (e.g. "mp4" to "mp3") to change ouput format 
