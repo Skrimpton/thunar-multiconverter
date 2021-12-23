@@ -12,6 +12,7 @@ filetype=$(zenity --list --height=300 --title="" --text="Convert film with ffmpe
 * Selection-dialog for filetypes, error-dialog and system notification on completion   
 * Supports multiple selected files.
 
+---
 
 This code is slightly modified from one or more original codesnippets found around the web, but the research was conducted in a frenzy and the source(s) are lost in time, like tears in rain.
 </br>
