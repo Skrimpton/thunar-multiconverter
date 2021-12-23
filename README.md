@@ -27,7 +27,8 @@ This code is slightly modified from one or more original codesnippets found arou
 ### "Install"
 
 > Copy paste into the "command"-field when creating or editing a Thunar custom action
-<br/> * Replace or add to the filetypes (e.g. "ogg", "mp3", "m4a", ) if you want to convert to other formats.
+ 
+* Replace or add to the filetypes (e.g. "ogg", "mp3", "m4a", ) if you want to convert to other formats.
 
 This will use the automatic FFMPEG flags, settings and such, so the quality of the outputted files may vary.  
 
